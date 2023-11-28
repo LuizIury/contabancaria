@@ -242,17 +242,19 @@ public class Menu {
 		System.out.println("*********************************************************");
 	}
     
-	public static void keyPress() {
 
-		try {
+    	public static void keyPress() {
 
-			System.out.println(Cores.TEXT_RESET + "\n\nPressione Enter para Continuar...");
-			System.in.read();
+    		try {
 
-		} catch (IOException e) {
+    			System.out.println(Cores.TEXT_RESET + "\n\nPressione Enter para Continuar...");
+    			System.in.read();
 
-			System.out.println("Você pressionou uma tecla diferente de enter!");
+    		} catch (IOException e) {
 
-		}
-	}
-}
+    			System.out.println("Você pressionou uma tecla diferente de enter!");
+
+    		}
+    	}
+
+    }
